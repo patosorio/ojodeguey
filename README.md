@@ -1,2 +1,2 @@
-# ojodeguey
+# ojodegüey
 Ethical and Sustainable Jewerly
