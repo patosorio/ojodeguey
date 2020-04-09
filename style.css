@@ -1,0 +1,26 @@
+
+/*HEADER*/
+
+.img-logo{
+	object-fit: cover;
+	width: 250px;
+	height: 200px;
+    margin: 0;
+}
+
+
+.header-line{
+    margin-top: 0;    
+    border: 2px;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+.navbar-toggler-icon{
+    border-color: white;
+    background-color: black;
+    border-style: 
+}
+
