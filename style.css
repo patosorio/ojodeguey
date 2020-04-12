@@ -1,12 +1,59 @@
 
+
+/* Fonts */
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+}
+
 /*HEADER*/
 
-.img-logo{
-	object-fit: cover;
-	width: 250px;
-	height: 200px;
-    margin: 0;
+#header{
+    position: relative;
+    min-height: 100vh;
 }
+
+
+/*NavBar*/
+
+.navbar-container{
+    /*position: absolute;
+    top: 20%;
+    right: 0;*/
+    padding-right: 0;
+    text-align: right;
+    z-index: 1;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar .navbar-toggler{
+    background-color: white;
+    border: 0;
+}
+
+
+.navbar .navbar-nav li{
+    float: right;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar .navbar-nav li{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    }
+}
+
 
 
 .header-line{
@@ -16,30 +63,3 @@
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
-
-
-.navbar-toggler-icon{
-    border-color: white;
-    background-color: black;
-}
-
-
-.landing-container{
-    margin: 0;
-}
-
-.img-header-gril{
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.img-girl{
-    width: 300px;
-    height: 500px;
-}
-
-.img-hand{
-    width: 300px;
-    height: 500px;
-}
-
