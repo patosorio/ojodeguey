@@ -1,19 +1,41 @@
 
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
 
 /* Fonts */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
 body{
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+*{
+  margin: 0;
+  padding:0;
 }
 
 /*HEADER*/
 
 #header{
-    position: relative;
-    min-height: 100vh;
+ 
 }
 
+.img-logo{
+    width: 100%;
+    height: auto;
+}
+
+.header-line{
+    margin-top: 0;    
+    border: 2px;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
 
 /*NavBar*/
 
@@ -54,12 +76,32 @@ body{
     }
 }
 
+/*Header-Title*/
+
+#title{
+    font-family: 'Roboto Mono', monospace;
+    /*font-size: 3.052em;*/
+    font-size: 5vw;
+}
+
+#slogan{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+}
 
 
-.header-line{
-    margin-top: 0;    
-    border: 2px;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+/*Header-Content*/
+
+
+.hero-img{
+    width: 100%;
+    height: auto;
+}
+
+.header-text {
+    font-size: 16px;
+    text-align: right;
+    border-right: 2px solid black;
+    padding-right: 5px;
+    
 }
