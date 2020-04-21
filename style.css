@@ -32,11 +32,6 @@ body{
     font-style: normal;
 }
 
-.slogan{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 110%;
-}
 
 .subtitle{
     font-family: 'Roboto Mono', monospace;
@@ -93,6 +88,21 @@ body{
 
 /*NavBar*/
 
+#slogan{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px){
+    #slogan{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 9px%;
+}
+}
+
+
 .navbar-container{
     /*position: absolute;
     top: 20%;
@@ -102,6 +112,7 @@ body{
     z-index: 1;
 }
 
+
 .navbar{
     width: 100%;
 }
@@ -109,6 +120,7 @@ body{
 .navbar .navbar-toggler{
     background-color: white;
     border: 0;
+    font-size:10px !important;
 }
 
 
