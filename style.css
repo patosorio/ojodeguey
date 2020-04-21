@@ -22,7 +22,7 @@ body{
 }
 
 
-/*Titles*/
+/*Titles Text*/
 
 .title{
     font-family: 'Roboto Mono', monospace;
@@ -44,8 +44,37 @@ body{
     font-size: 250%;
     font-weight: 400;
     font-style: normal;
-
 }
+
+/*Content Text*/
+
+.description-item-title{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+.description-item-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+
+@media only screen and (max-width: 768px){
+    .description-item-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 10px;
+    font-weight: 300;
+    color: black;
+}
+}
+
 
 /*HEADER*/
 
@@ -104,7 +133,7 @@ body{
 
 /*Header-Content*/
 
-.header-content{
+.header-img-container{
     padding: 5px;
     position: relative;
 }
@@ -145,6 +174,45 @@ body{
     text-decoration: underline;
     vertical-align: top;
 }
+
+/* OJO DE GUEY */
+
+.description-item-title-btn{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+@media (min-width: 768px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
+
+
+.ojodeguey-img-container{
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+/* For mobile phones */
+.ojodeguey-img-container{
+    margin-top: 20px;
+}
+}
+
+.ojodeguey-img{
+    width: 100%;
+    height: auto;
+}
+
+
 
 /* Stones */
 
@@ -198,3 +266,4 @@ body{
     font-size: 16px;
     padding: 5px;
 }
+
